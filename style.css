@@ -43,14 +43,10 @@ body {
     font-weight: 800;
 }
 
-form {
-    width: 75%;
-}
-
 #email-container {
     display: flex;
+    gap: 10px;
     justify-content: end;
-    width: 100%;
 }
 
 #email-input {
@@ -61,8 +57,7 @@ form {
     font-weight: 600;
     font-size: 20px;
     box-sizing: border-box;
-    width: 57%;
-    margin-right: 10px;
+    width: 60%;
 }
 
 #email-button {
